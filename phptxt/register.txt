@@ -1,0 +1,39 @@
+Subject: Registration Information
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Dear Sir/Madam,
+
+Thank you for registering with us. Your registration details with us is as follow: 
+
+
+<!--FieldCaption_nama_pemilik-->: <!--nama_pemilik-->
+
+<!--FieldCaption_nama_industri_kreatif-->: <!--nama_industri_kreatif-->
+
+<!--FieldCaption_email-->: <!--email-->
+
+<!--FieldCaption_password-->: <!--password-->
+
+<!--FieldCaption_deskripsi_industri_kreatif-->: <!--deskripsi_industri_kreatif-->
+
+<!--FieldCaption_alamat-->: <!--alamat-->
+
+<!--FieldCaption_no_telp-->: <!--no_telp-->
+
+<!--FieldCaption_image-->: <!--image-->
+
+<!--FieldCaption_website-->: <!--website-->
+
+<!--FieldCaption_sektor_industri_kreatif-->: <!--sektor_industri_kreatif-->
+
+
+
+
+Please feel free to contact us in case of further queries.
+
+Best Regards,
+Support

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<configuration date="2016/03/27" author="e.World Technology Ltd.">
+<project id="{D322CAA1-B5DF-4315-A18C-262A6180EE7B}" file="E:\OneDrive\Ongoing Project\MCF\admin\mcf.pmp" name="mcf" product="PHPMaker" version="11.0" datetime="2016/03/27 13:01:11" languagefolder="phplang" userlevel="0,&quot;Default&quot;,0;1,&quot;Admin MCF&quot;,111">
+<table id="pelaku_kreatif" name="pelaku_kreatif" caption="Pelaku Kreatif" userlevel="0,&quot;Default&quot;,0;1,&quot;Admin MCF&quot;,111" priv="1"/>
+<table id="produk" name="produk" caption="Produk" userlevel="0,&quot;Default&quot;,0;1,&quot;Admin MCF&quot;,111" priv="1"/>
+<table id="sektor" name="sektor" caption="Sektor" userlevel="0,&quot;Default&quot;,0;1,&quot;Admin MCF&quot;,104" priv="1"/>
+<table id="profile" name="profile" caption="Profile" userlevel="0,&quot;Default&quot;,108;1,&quot;Admin MCF&quot;,4" priv="1"/>
+<table id="produk_kreatif" name="produk_kreatif" caption="Produk Anda" userlevel="0,&quot;Default&quot;,111;1,&quot;Admin MCF&quot;,0" priv="1"/>
+</project></configuration>

@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<ew-language date="2016/3/27" version="11.0.0" id="id" name="Indonesian" desc="Indonesian" author="Masino Sinaga">
+	<locale>
+		<phrase id="locale" value="id_ID"/><!-- *** system locale for this language -->
+		<phrase id="use_system_locale" value="0"/><!-- *** change to "0" to disable system locale and use the following settings *** -->
+		<phrase id="decimal_point" value=","/>
+		<phrase id="thousands_sep" value="."/>
+		<phrase id="mon_decimal_point" value="."/>
+		<phrase id="mon_thousands_sep" value="."/>
+		<phrase id="currency_symbol" value="Rp"/>
+		<phrase id="positive_sign" value=""/>
+		<phrase id="negative_sign" value="-"/>
+		<phrase id="frac_digits" value="2"/>
+		<phrase id="p_cs_precedes" value="1"/>
+		<phrase id="p_sep_by_space" value="0"/>
+		<phrase id="n_cs_precedes" value="1"/>
+		<phrase id="n_sep_by_space" value="0"/>
+		<phrase id="p_sign_posn" value="3"/>
+		<phrase id="n_sign_posn" value="3"/>
+		<phrase id="time_zone" value="Asia/Jakarta"/><!-- *** used for multi-language site only *** -->
+	</locale>
+	<global>
+		<phrase id="actiondeleted" value="Telah dihapus"/>
+		<phrase id="actioninserted" value="Telah dimasukkan"/>
+		<phrase id="actioninsertedgridadd" value="Telah dimasukkan (Grid-Add)"/>
+		<phrase id="actionupdated" value="Telah diperbarui"/>
+		<phrase id="actionupdatedgridedit" value="Telah diperbarui (Grid-Edit)"/>
+		<phrase id="actionupdatedmultiupdate" value="Telah diperbarui (Multi-Update)"/>
+		<phrase id="activateaccount" value="Akun Anda sudah diaktivasi"/>
+		<phrase id="activatefailed" value="Aktivasi gagal"/>
+		<phrase id="add" value="Tambah"/>
+		<phrase id="addblankrow" value="Tambah Baris Kosong" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+		<phrase id="addbtn" value="Tambah"/>
+		<phrase id="addlink" value="Tambah" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+		<phrase id="addmasterdetaillink" value="Tambah Master/Detail" class="icon-md-add ewIcon"/><!-- v11 -->
+		<phrase id="addsuccess" value="Penambahan berhasil"/>
+		<phrase id="advancedsearch" value="Pencarian Lanjutan"/><!-- v11 -->
+		<phrase id="advancedsearchbtn" value="Pencarian Lanjutan" class="icon-advanced-search ewIcon"/><!-- v11 -->
+		<phrase id="allrecords" value="Semua"/>
+		<phrase id="allword" value="Semua kata"/>
+		<phrase id="alwaysask" value="Selalu tanya nama pengguna dan kata sandi saya"/>
+		<phrase id="anyword" value="Kata apapun"/>
+		<phrase id="audittrailautologin" value="autologin"/>
+		<phrase id="audittrailfailedattempt" value="gagal usaha ke: %n"/>
+		<phrase id="audittrailuserloggedin" value="pengguna sudah tercatat masuk"/>
+		<phrase id="audittrailpasswordexpired" value="kata sandi sudah habis masa lakunya"/>
+		<phrase id="audittraillogin" value="login"/>
+		<phrase id="audittraillogout" value="logout"/>
+		<phrase id="autologin" value="Otomatis login sampai saya logout secara eksplisit"/>
+		<phrase id="average" value="Rata-rata"/>
+		<phrase id="backtolist" value="Kembali ke Daftar"/>
+		<phrase id="backtologin" value="Kembali ke halaman Login"/>
+		<phrase id="backtomasterrecordpage" value="Kembali ke tabel master"/>
+		<phrase id="batchdeletebegin" value="*** Mulai penghapusan banyak ***"/>
+		<phrase id="batchdeleterollback" value="*** Membatalkan penghapusan banyak ***"/>
+		<phrase id="batchdeletesuccess" value="*** Penghapusan banyak berhasil ***"/>
+		<phrase id="batchinsertbegin" value="*** Mulai penambahan banyak ***"/>
+		<phrase id="batchinsertrollback" value="*** Membatalkan penambahan banyak ***"/>
+		<phrase id="batchinsertsuccess" value="*** Penambahan banyak berhasil ***"/>
+		<phrase id="batchupdatebegin" value="*** Mulai pembaruan banyak ***"/>
+		<phrase id="batchupdaterollback" value="*** Membatalkan pembaruan banyak ***"/>
+		<phrase id="batchupdatesuccess" value="*** Pembaruan banyak berhasil ***"/>
+		<!-- ***
+<phrase id="BreadcrumbDivider" value="/"/>
+-->
+		<phrase id="buttonactions" value="Aksi" class="icon-options ewIcon"/><!-- v11 -->
+		<phrase id="buttonaddedit" value="Tambah/Ubah" class="icon-addedit ewIcon"/><!-- v11 -->
+		<phrase id="buttondetails" value="Master/Detail" class="icon-master-detail ewIcon"/><!-- v11 -->
+		<phrase id="buttonexport" value="Ekspor" class="icon-export ewIcon"/><!-- v11 -->
+		<phrase id="buttonlistoptions" value="Pilihan" class="icon-options ewIcon"/><!-- v11 -->
+		<phrase id="buttonsearch" value="Cari" class="icon-search ewIcon"/><!-- v11 -->
+		<phrase id="cancelbtn" value="Batal"/>
+		<phrase id="cancellink" value="Batal" class="glyphicon glyphicon-remove ewIcon"/><!-- v11 -->
+		<phrase id="changepwd" value="Ganti Kata Sandi"/>
+		<phrase id="changepwdpage" value="Ganti Kata Sandi"/>
+		<phrase id="changepwdbtn" value="Ganti"/>
+		<phrase id="choosefilebtn" value="Pilih..."/><!-- v11 -->
+		<phrase id="choosefile" value="Pilih file"/><!-- v11 -->
+		<phrase id="choosefiles" value="Pilih file-file"/><!-- v11 -->
+		<phrase id="confirm" value="Konfirmasikan"/>
+		<phrase id="confirmbtn" value="Konfirmasikan"/>
+		<phrase id="confirmpassword" value="Konfirmasikan Kata Sandi"/>
+		<phrase id="conflictcancellink" value="Batal"/>
+		<phrase id="lightboxtitle" value=" " client="1"/><!-- v11 -->
+		<phrase id="lightboxcurrent" value="image {current} dari {total}" client="1"/><!-- Note: DO NOT translate "{current}" and "{total}" --><!-- v11 -->
+		<phrase id="lightboxprevious" value="mundur" client="1"/><!-- v11 -->
+		<phrase id="lightboxnext" value="maju" client="1"/><!-- v11 -->
+		<phrase id="lightboxclose" value="tutup" client="1"/><!-- v11 -->
+		<phrase id="lightboxxhrerror" value="Konten ini gagal dimuat." client="1"/><!-- v11 -->
+		<phrase id="lightboximgerror" value="Gambar ini gagal dimuat." client="1"/><!-- v11 -->
+		<phrase id="copy" value="Salin"/>
+		<phrase id="copylink" value="Salin" class="icon-copy ewIcon"/><!-- v11 -->
+		<phrase id="count" value="Jumlah"/>
+		<phrase id="customactioncompleted" value="Aksi '%s' telah selesai"/>
+		<phrase id="customactioncancelled" value="Aksi '%s' dibatalkan"/>
+		<phrase id="customview" value="TAMPILAN KOSTUM"/>
+		<phrase id="delete" value="Hapus"/>
+		<phrase id="deletebtn" value="Hapus"/>
+		<phrase id="deletecancelled" value="Penghapusan dibatalkan"/>
+		<phrase id="deleteconfirmmsg" value="Anda yakin ingin menghapus record ini?" client="1"/>
+		<phrase id="deletelink" value="Hapus" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+		<phrase id="deletemulticonfirmmsg" value="Anda ingin menghapus record yang terpilih?" client="1"/>
+		<phrase id="deleteselectedlink" value="Hapus Record Terpilih" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+		<phrase id="deletesuccess" value="Penghapusan berhasil"/>
+		<phrase id="detaillink" value=""/>
+		<phrase id="detailcount" value="&lt;span dir='ltr'&gt;(%c)&lt;/span&gt;"/><!-- v11 -->
+		<phrase id="masterdetailcopylink" value="Salin Master/Detail" class="icon-md-copy ewIcon"/><!-- v11 -->
+		<phrase id="masterdetaileditlink" value="Ubah Master/Detail" class="icon-md-edit ewIcon"/><!-- v11 -->
+		<phrase id="masterdetaillistlink" value="Daftar Detail" class="icon-table ewIcon"/><!-- v11 -->
+		<phrase id="masterdetailviewlink" value="Tampilan Master/Detail" class="icon-md-view ewIcon"/><!-- v11 -->
+		<phrase id="dupindex" value="Nilai duplikat '%v' untuk indeks yang unik '%f'"/>
+		<phrase id="dupkey" value="Kunci utama duplikat: '%f'"/>
+		<phrase id="edit" value="Ubah"/>
+		<!-- ***
+<phrase id="EditBtn" value="Ubah"/>
+-->
+		<phrase id="editlink" value="Ubah" class="icon-edit ewIcon"/><!-- v11 -->
+		<phrase id="enternewpassword" value="Masukkan kata sandi yang baru" client="1"/>
+		<phrase id="enteroldpassword" value="Masukkan kata sandi yang lama" client="1"/>
+		<phrase id="enterpassword" value="Masukkan kata sandi" client="1"/>
+		<phrase id="enterpwd" value="Masukkan kata sandi" client="1"/>
+		<phrase id="enterrequiredfield" value="Masukkan ruas yang dibutuhkan - %s"/><!-- v11 -->
+		<phrase id="entersearchcriteria" value="Masukkan kriteria pencarian"/>
+		<phrase id="enterusername" value="Masukkan nama pengguna" client="1"/>
+		<phrase id="entervalidatecode" value="Masukkan kode validasi yang ditampilkan" client="1"/><!-- v11 -->
+		<phrase id="entersenderemail" value="Masukkan email pengirim" client="1"/>
+		<phrase id="enterpropersenderemail" value="Melebih jumlah maksimum email pengirim atau alamat email tidak benar" client="1"/>
+		<phrase id="enterrecipientemail" value="Masukkan email penerima" client="1"/>
+		<phrase id="enterproperrecipientemail" value="Melebihi jumlah maksimum email penerima atau alamat email tidak benar" client="1"/>
+		<phrase id="enterproperccemail" value="Melebihi jumlah maksimum email cc atau alamat email tidak benar" client="1"/>
+		<phrase id="enterproperbccemail" value="Melebihi jumlah maksimum email bcc atau alamat email tidak benar" client="1"/>
+		<phrase id="entersubject" value="Masukkan subject" client="1"/>
+		<phrase id="emailformsender" value="Dari"/>
+		<phrase id="emailformrecipient" value="Kepada"/>
+		<phrase id="emailformcc" value="Cc"/>
+		<phrase id="emailformbcc" value="Bcc"/>
+		<phrase id="emailformsubject" value="Subjek"/>
+		<phrase id="emailformmessage" value="Pesan"/>
+		<phrase id="emailformcontenttype" value="Kirim sebagai"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+		<phrase id="enteruid" value="Masukkan ID Pengguna" client="1"/>
+		<phrase id="entervalidemail" value="Masukkan alamat email yang valid!" client="1"/>
+		<phrase id="exactphrase" value="Frase yang tepat"/>
+		<phrase id="exceedmaxretry" value="Melebihi jumlah maksimum usaha login. Akun terkunci. Silahkan coba lagi dalam %t menit"/>
+		<phrase id="exceedmaxemailexport" value="Melebihi jumlah maksimum email ekspor. Cobalah lagi nanti"/>
+		<phrase id="exporttocsv" value="Ekspor ke CSV" class="icon-csv ewIcon"/><!-- v11 -->
+		<phrase id="exporttocsvtext" value="CSV"/>
+		<phrase id="exporttoemail" value="Email" class="icon-email ewIcon"/><!-- v11 -->
+		<phrase id="exporttoemailtext" value="Email" client="1"/>
+		<phrase id="exporttoexcel" value="Ekspor ke Excel" class="icon-excel ewIcon"/><!-- v11 -->
+		<phrase id="exporttoexceltext" value="Excel"/>
+		<phrase id="exporttohtml" value="Ekspor ke HTML" class="icon-html ewIcon"/><!-- v11 -->
+		<phrase id="exporttohtmltext" value="HTML"/>
+		<phrase id="exporttopdf" value="Ekspor ke PDF" class="icon-pdf ewIcon"/><!-- v11 -->
+		<phrase id="exporttopdftext" value="PDF"/>
+		<phrase id="exporttoword" value="Ekspor ke Word" class="icon-word ewIcon"/><!-- v11 -->
+		<phrase id="exporttowordtext" value="Word"/>
+		<phrase id="exporttoxml" value="Ekspor ke XML" class="icon-xml ewIcon"/><!-- v11 -->
+		<phrase id="exporttoxmltext" value="XML"/>
+		<phrase id="failedtosendmail" value="Gagal mengirim email. "/>
+		<phrase id="fieldname" value="Nama Ruas"/>
+		<phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+		<phrase id="filenotfound" value="File tidak ditemukan"/><!-- *** characters need to be supported by EW_TMP_IMAGE_FONT *** -->
+		<phrase id="overwritebtn" value="Timpa"/>
+		<phrase id="overwritelink" value="Timpa"/>
+		<phrase id="forgotpwd" value="Lupa Kata Sandi"/>
+		<phrase id="goback" value="Kembali"/>
+		<phrase id="gridaddcancelled" value="Penambahan grid dibatalkan"/><!-- v11 -->
+		<phrase id="gridaddlink" value="Tambah di Grid" class="icon-grid-add ewIcon"/><!-- v11 -->
+		<phrase id="gridcancellink" value="Batal" class="glyphicon glyphicon-remove ewIcon"/><!-- v11 -->
+		<phrase id="grideditcancelled" value="Pengubahan grid dibatalkan"/><!-- v11 -->
+		<phrase id="grideditlink" value="Ubah di Grid" class="icon-grid-edit ewIcon"/><!-- v11 -->
+		<phrase id="gridinsertlink" value="Tambahkan" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+		<phrase id="gridsavelink" value="Simpan" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+		<!-- ***
+<phrase id="HideHighlight" value="Sembunyikan sorotan" client="1"/>
+-->
+		<phrase id="highlight" value="Sorot"/><!-- v11 -->
+		<phrase id="highlightbtn" value="Sorot" class="icon-highlight ewIcon"/><!-- v11 -->
+		<phrase id="homepage" value="Beranda" class="glyphicon glyphicon-home ewIcon"/><!-- v11 -->
+		<phrase id="incorrectcreditcard" value="Nomor kartu kredit tidak benar"/>
+		<phrase id="incorrectdateymd" value="Tanggal tidak benar, format = yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="Tanggal tidak benar, format = mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="Tanggal tidak benar, format = dd%smm%syyyy"/>
+		<phrase id="incorrectshortdateymd" value="Tanggal tidak benar, format = yy%smm%sdd"/>
+		<phrase id="incorrectshortdatemdy" value="Tanggal tidak benar, format = mm%sdd%syy"/>
+		<phrase id="incorrectshortdatedmy" value="Tanggal tidak benar, format = dd%smm%syy"/>
+		<phrase id="incorrectemail" value="Email tidak benar" client="1"/>
+		<phrase id="incorrectfield" value="Ruas tidak benar" client="1"/>
+		<phrase id="incorrectfloat" value="Angka desimal tidak benar" client="1"/>
+		<phrase id="incorrectguid" value="GUID tidak benar" client="1"/>
+		<phrase id="incorrectinteger" value="Integer tidak benar" client="1"/>
+		<phrase id="incorrectphone" value="Nomor telepon tidak benar" client="1"/>
+		<phrase id="incorrectregexp" value="Ekspresi regular tidak cocok" client="1"/>
+		<phrase id="incorrectrange" value="Angka harus di antara %1 dan %2" client="1"/>
+		<phrase id="incorrectssn" value="Nomor keamanan sosial tidak benar" client="1"/>
+		<phrase id="incorrecttime" value="Waktu tidak benar (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="Kodepos tidak benar" client="1"/>
+		<phrase id="inlineaddlink" value="Tambah di Baris" class="icon-inline-add ewIcon"/><!-- v11 -->
+		<phrase id="inlinecopylink" value="Salin di Baris" class="icon-inline-copy ewIcon"/><!-- v11 -->
+		<phrase id="inlineeditlink" value="Ubah di Baris" class="icon-inline-edit ewIcon"/><!-- v11 -->
+		<phrase id="insertcancelled" value="Penambahan dibatalkan"/>
+		<phrase id="insertfailed" value="Penambahan gagal" client="1"/>
+		<phrase id="insertlink" value="Tambah" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+		<phrase id="insertsuccess" value="Penambahan berhasil"/>
+		<phrase id="invalidemail" value="Email tidak valid"/>
+		<phrase id="invalidfield" value="Ruas tidak valid"/>
+		<phrase id="invalidkeyvalue" value="Nilai kunci tidak valid"/>
+		<phrase id="invalidrecord" value="Record tidak valid! Kunci bernilai null" client="1"/>
+		<phrase id="invalidpostrequest" value="Permintaan post tidak valid"/><!-- v11 -->
+		<phrase id="invalidparameter" value="Parameter tidak valid"/>
+		<phrase id="invalidpassword" value="Kata sandi tidak valid"/>
+		<phrase id="invalidnewpassword" value="Kata sandi yang baru tidak valid"/>
+		<phrase id="invaliduidpwd" value="ID Pengguna atau Kata Sandi tidak valid"/>
+		<phrase id="keep" value="Pertahankan"/>
+		<phrase id="language" value="Bahasa"/>
+		<phrase id="loading" value="Sedang memuat..." client="1"/>
+		<phrase id="login" value="Login"/>
+		<phrase id="logincancelled" value="Login dibatalkan"/>
+		<phrase id="loginoptions" value="Pilihan"/><!-- v11 -->
+		<phrase id="loginpage" value="Login"/>
+		<phrase id="logout" value="Logout"/>
+		<phrase id="masterrecord" value="Record Master: "/>
+		<phrase id="maxfilesize" value="Ukuran file maksimum (%s bytes) telah terlampaui." client="1"/>
+		<phrase id="messageok" value="OK" client="1"/>
+		<phrase id="mismatchpassword" value="Kata sandi tidak cocok" client="1"/>
+		<phrase id="missinglookuptablename" value="Nama tabel lookup tidak ada"/>
+		<phrase id="missingdisplayfieldname" value="Nama ruas yang ditampilkan tidak ada"/>
+		<phrase id="missingdisplayfieldvalue" value="Nilai ruas yang ditampilkan tidak ada"/>
+		<phrase id="missinguserlevelid" value="ID Level Pengguna tidak ada"/>
+		<phrase id="missinguserlevelname" value="Nama Level Pengguna tidak ada"/>
+		<phrase id="mobilemenu" value="Menu"/>
+		<phrase id="multiplemasterdetails" value="Master/Detail" class="icon-master-detail ewIcon"/><!-- v11 -->
+		<phrase id="new" value="Baru"/>
+		<phrase id="newpassword" value="Kata Sandi Baru"/>
+		<phrase id="next" value="Maju"/>
+		<phrase id="noaddrecord" value="Tidak ada record yang ditambahkan" client="1"/>
+		<phrase id="nofieldselected" value="Tidak ada ruas terpilih yang diperbarui" client="1"/>
+		<phrase id="nopermission" value="Anda tidak memiliki ijin untuk mengakses halaman ini."/>
+		<phrase id="noaddpermission" value="Anda tidak memiliki ijin untuk menambahkan record."/>
+		<phrase id="nodeletepermission" value="Anda tidak memiliki ijin untuk menghapus record."/>
+		<phrase id="noeditpermission" value="Anda tidak memiliki ijin untuk mengubah record."/>
+		<phrase id="norecord" value="Tidak ada record ditemukan"/>
+		<phrase id="norecordforkey" value="Tidak ada record ditemukan untuk kunci = "/>
+		<phrase id="norecordselected" value="Tidak ada record yang dipilih" client="1"/>
+		<phrase id="notablegenerated" value="Tidak ada tabel yang dibangkitkan"/>
+		<phrase id="nouserlevel" value="Tidak ada pengaturan level pengguna."/>
+		<phrase id="of" value="dari"/>
+		<phrase id="old" value="Lama"/>
+		<phrase id="oldpassword" value="Kata Sandi Lama"/>
+		<phrase id="optionalreadyexist" value="Pilihan sudah ada"/>
+		<phrase id="page" value="Halaman"/>
+		<phrase id="pagerfirst" value="Awal"/>
+		<phrase id="pagerlast" value="Akhir"/>
+		<phrase id="pagernext" value="Maju"/>
+		<phrase id="pagerprevious" value="Mundur"/>
+		<phrase id="password" value="Kata Sandi"/>
+		<phrase id="passwordrequest" value="Permintaan Kata Sandi"/>
+		<phrase id="passwordchanged" value="Kata Sandi Telah Diganti"/>
+		<phrase id="passwordexpired" value="Kata Sandi sudah habis masa berlakunya. Silahkan ganti kata sandi."/>
+		<phrase id="permission" value="Hak Akses" class="icon-user ewIcon"/><!-- v11 -->
+		<phrase id="permissionaddcopy" value="Tambah/Salin"/>
+		<phrase id="permissiondelete" value="Hapus"/>
+		<phrase id="permissionedit" value="Ubah"/>
+		<phrase id="permissionlistsearchview" value="Daftar/Cari/Tampilan"/>
+		<phrase id="permissionlist" value="Daftar"/>
+		<phrase id="permissionsearch" value="Cari"/>
+		<phrase id="permissionview" value="Tampilan"/>
+		<phrase id="pickdate" value="Pilih tanggal"/>
+		<phrase id="pleaseselect" value="Silahkan Pilih"/>
+		<phrase id="pleasewait" value="Mohon tunggu..." client="1"/>
+		<phrase id="primarykeyunspecified" value="Kunci utama belum ditentukan"/>
+		<phrase id="printerfriendly" value="Ramah Cetakan" class="icon-print ewIcon"/><!-- v11 -->
+		<phrase id="printerfriendlytext" value="Ramah Cetakan"/>
+		<phrase id="prev" value="Mundur"/>
+		<phrase id="pwdemailsent" value="Kata sandi sudah dikirim ke email Anda"/>
+		<phrase id="resetpwdemailsent" value="Email untuk mereset kata sandi sudah dikirim ke Anda"/>
+		<phrase id="quicksearch" value="Pencarian Cepat"/>
+		<phrase id="quicksearchbtn" value="Cari"/>
+		<phrase id="quicksearchauto" value="Otomatis" client="1"/><!-- v11 -->
+		<phrase id="quicksearchautoshort" value="" client="1"/><!-- v11 -->
+		<phrase id="quicksearchall" value="Semua kata kunci" client="1"/><!-- v11 -->
+		<phrase id="quicksearchallshort" value="Semua" client="1"/><!-- v11 -->
+		<phrase id="quicksearchany" value="Apapun kata kunci" client="1"/><!-- v11 -->
+		<phrase id="quicksearchanyshort" value="Apapun" client="1"/><!-- v11 -->
+		<phrase id="quicksearchexact" value="Cocok persis" client="1"/><!-- v11 -->
+		<phrase id="quicksearchexactshort" value="Cocok" client="1"/><!-- v11 -->
+		<phrase id="record" value="Record"/>
+		<phrase id="recordchangedbyotheruser" value="Data telah diganti oleh Pengguna lain. Klik [Muat Ulang] untuk mengambil data yang berubah (data Anda di form akan ditimpa) atau klik [Timpa] untuk menimpa data yang telah diganti."/>
+		<phrase id="recorddeleted" value="record telah dihapus"/>
+		<phrase id="recordinserted" value="record telah dimasukkan"/>
+		<phrase id="recordupdated" value="record telah diperbarui"/>
+		<phrase id="recordsperpage" value="Ukuran Halaman"/>
+		<phrase id="register" value="Pendaftaran"/>
+		<phrase id="registerbtn" value="Daftarkan"/>
+		<phrase id="registersuccess" value="Pendaftaran berhasil"/>
+		<phrase id="registersuccessactivate" value="Pendaftaran berhasil. Sebuah email telah dikirim ke alamat email Anda, silahkan klik link yang terdapat di email untuk mengaktifkan akun Anda."/>
+		<phrase id="registerpage" value="Pendaftaran"/>
+		<phrase id="relatedrecordrequired" value="Anda tidak dapat menambah atau memperbarui record karena nilai foreign key tidak terdapat di tabel master '%t'"/>
+		<phrase id="relatedrecordexists" value="Anda tidak dapat menghapus record karena record terkait terdapat di tabel detail '%t'"/>
+		<phrase id="reloadbtn" value="Muat Ulang"/>
+		<phrase id="reloadlink" value="Muat Ulang"/>
+		<phrase id="rememberme" value="Ingat saya"/>
+		<phrase id="remove" value="Hapus"/>
+		<phrase id="replace" value="Ganti"/>
+		<phrase id="report" value="Laporan"/>
+		<phrase id="requestpwdpage" value="Permintaan Kata Sandi"/>
+		<phrase id="reset" value="Reset"/>
+		<phrase id="resetsearchbtn" value="Reset" class="icon-reset-search ewIcon"/><!-- v11 -->
+		<phrase id="resetsearch" value="Reset"/>
+		<phrase id="rptavg" value="Rata-rata"/>
+		<phrase id="rptdtlrec" value="Detail Record"/>
+		<phrase id="rptgrandtotal" value="Total Seluruh"/>
+		<phrase id="rptmax" value="Maksimum"/>
+		<phrase id="rptmin" value="Minimum"/>
+		<phrase id="rptsum" value="Jumlah"/>
+		<phrase id="rptsumhead" value="Jumlah untuk"/>
+		<phrase id="savebtn" value="Simpan"/><!-- v11 -->
+		<phrase id="saveusername" value="Simpan nama pengguna saya"/>
+		<phrase id="search" value="Cari"/>
+		<phrase id="searchbtn" value="Cari" class="glyphicon glyphicon-search ewIcon"/><!-- v11 -->
+		<phrase id="searchpanel" value="Panel Cari"/><!-- v11 -->
+		<phrase id="sendemailbtn" value="Kirim"/>
+		<phrase id="sendemailsuccess" value="Email berhasil dikirim" client="1"/>
+		<phrase id="sendpwd" value="Kirim"/>
+		<phrase id="sequencenumber" value="%s."/>
+		<phrase id="showallbtn" value="Tampilkan semua" class="icon-reset-search ewIcon"/><!-- v11 -->
+		<phrase id="showall" value="Tampilkan semua"/><!-- v11 -->
+		<!-- ***
+<phrase id="ShowHighlight" value="Tampilkan sorotan" client="1"/>
+-->
+		<phrase id="srchlegend" value=""/>
+		<phrase id="table" value="TABEL"/>
+		<phrase id="tbltypetable" value="Tabel: "/>
+		<phrase id="tbltypeview" value="Tampilan: "/>
+		<phrase id="tbltypecustomview" value="Tampilan Kostum: "/>
+		<phrase id="tbltypereport" value="Laporan: "/>
+		<phrase id="to" value="sampai"/>
+		<phrase id="total" value="Total"/>
+		<phrase id="unauthorizeduserid" value="Pengguna (%c) tidak diotorisasi untuk menugaskan ID Pengguna (%u)."/>
+		<phrase id="unauthorizedparentuserid" value="Pengguna (%c) tidak diotorisasi untuk menugaskan ID Pengguna Induk (%p)."/>
+		<phrase id="unauthorizedmasteruserid" value="Pengguna (%c) tidak diotorisasi untuk menambahkan record. Filter Master: %f"/>
+		<!-- ***
+<phrase id="UnmatchedValue" value="Value does not exist" imageurl="{_images}/warn.gif" imagewidth="16" imageheight="15"/>
+-->
+		<phrase id="update" value="Perbarui"/>
+		<phrase id="updatebtn" value="Perbarui"/>
+		<phrase id="updatecancelled" value="Pembaruan dibatalkan"/>
+		<phrase id="updatefailed" value="Pembaruan gagal"/>
+		<phrase id="updatelink" value="Perbarui" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+		<phrase id="updateselectall" value="Pilih semua"/><!-- v11 -->
+		<phrase id="updateselectedlink" value="Perbarui Record Terpilih" class="icon-edit ewIcon"/><!-- v11 -->
+		<phrase id="updatesuccess" value="Pembaruan berhasil"/>
+		<phrase id="uploading" value="Sedang mengunggah..." client="1"/>
+		<phrase id="uploadstart" value="Mulai" client="1"/>
+		<phrase id="uploadcancel" value="Batal" client="1"/>
+		<phrase id="uploaddelete" value="Hapus" client="1"/>
+		<phrase id="uploadoverwrite" value="Timpa file lama?" client="1"/>
+		<phrase id="uploaderrmsg1" value="File yang diunggah melebihi nilai upload_max_filesize di php.ini"/>
+		<phrase id="uploaderrmsg2" value="File yang diunggah melebih nilai MAX_FILE_SIZE yang ditentukan di form HTML"/>
+		<phrase id="uploaderrmsg3" value="File yang digunggah hanya berhasil sebagian diterima"/>
+		<phrase id="uploaderrmsg4" value="Tidak ada file yang diunggah"/>
+		<phrase id="uploaderrmsg6" value="Folder sementara tidak ada"/>
+		<phrase id="uploaderrmsg7" value="Gagal menulis file ke disk"/>
+		<phrase id="uploaderrmsg8" value="Ekstensi PHP dihentikan oleh pengunggah file"/>
+		<phrase id="uploaderrmsgpostmaxsize" value="File yang diunggah melebihi nilai post_max_size di php.ini"/>
+		<phrase id="uploaderrmsgmaxfilesize" value="File terlalu besar" client="1"/>
+		<phrase id="uploaderrmsgminfilesize" value="File terlalu kecil" client="1"/>
+		<phrase id="uploaderrmsgacceptfiletypes" value="Tipe File tidak diijinkan" client="1"/>
+		<phrase id="uploaderrmsgmaxnumberoffiles" value="Jumlah maksimum file telah terlewati" client="1"/>
+		<phrase id="uploaderrmsgmaxwidth" value="Gambar melebihi lebar maksimum"/>
+		<phrase id="uploaderrmsgminwidth" value="Gambar membutuhkan lebar minimum"/>
+		<phrase id="uploaderrmsgmaxheight" value="Gambar melebihi tinggi maksimum"/>
+		<phrase id="uploaderrmsgminheight" value="Gambar membutuhkan tinggi minimum"/>
+		<phrase id="uploaderrmsgmaxfilelength" value="Total panjang nama file melebihi ukuran field" client="1"/>
+		<phrase id="useremail" value="Email"/>
+		<phrase id="userexists" value="Pengguna sudah ada"/>
+		<phrase id="userlevel" value="Level Pengguna: "/>
+		<phrase id="userleveladministratorname" value="Nama level pengguna untuk level pengguna -1 haruslah 'Administrator'" client="1"/>
+		<phrase id="userlevelpermission" value="Hak Akses Level Pengguna"/>
+		<phrase id="userlevelidinteger" value="ID Level Pengguna haruslah angka Integer" client="1"/>
+		<phrase id="userleveldefaultname" value="Nama Level Pengguna untuk level pengguna haruslah 'Default'" client="1"/>
+		<phrase id="userlevelidincorrect" value="ID Level Pengguna yang ditentukan oleh Pengguna harus lebih besar dari 0" client="1"/>
+		<phrase id="userlevelnameincorrect" value="Nama Level Pengguna yang ditentukan oleh Pengguna tidak boleh sama dengan 'Administrator' atau 'Default'" client="1"/>
+		<phrase id="userloggedin" value="Pengguna '%u' sudah tercatat masuk!"/>
+		<phrase id="username" value="Nama Pengguna"/>
+		<phrase id="userprofilecorrupted" value="Profil pengguna korup. Silahkan logout lalu login kembali"/>
+		<phrase id="valuenotexist" value="Nilai tidak ada" client="1"/><!-- v11 -->
+		<phrase id="view" value="Tampilan"/>
+		<phrase id="viewimagegallery" value="Tampilkan gambar"/><!-- v11 -->
+		<phrase id="viewlink" value="Tampilkan" class="icon-view ewIcon"/><!-- v11 -->
+		<phrase id="viewpageaddlink" value="Tambah" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+		<phrase id="viewpagecopylink" value="Salin" class="icon-copy ewIcon"/><!-- v11 -->
+		<phrase id="viewpagedeletelink" value="Hapus" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+		<phrase id="viewpagedetaillink" value=""/>
+		<phrase id="viewpageeditlink" value="Ubah" class="icon-edit ewIcon"/><!-- v11 -->
+		<phrase id="wrongfiletype" value="Tipe file tidak diijinkan." client="1"/>
+		<phrase id="tableorview" value="Tabel"/>
+		<phrase id="=" value=" "/>
+		<phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;"/>
+		<phrase id="&lt;" value="&amp;lt;"/>
+		<phrase id="&lt;=" value="&amp;lt;="/>
+		<phrase id="&gt;" value="&amp;gt;"/>
+		<phrase id="&gt;=" value="&amp;gt;="/>
+		<phrase id="like" value="mengandung"/>
+		<phrase id="not like" value="tidak mengandung"/>
+		<phrase id="starts with" value="dimulai dengan"/>
+		<phrase id="ends with" value="diakhiri dengan"/>
+		<phrase id="is null" value="sama dengan null"/>
+		<phrase id="is not null" value="tidak sama dengan null"/>
+		<phrase id="between" value="di antara"/>
+		<phrase id="and" value="dan"/>
+		<phrase id="or" value="atau"/>
+	</global>
+	<project><phrase id="bodytitle" value="Malang Creative Fusion"/>
+<phrase id="footertext" value="&amp;copy;2016 Malang Creative Fusion. Powered By &lt;a href=&quot;http://algostudio.net&quot;&gt;Algostudio.&lt;/a&gt;"/>
+<menu id="1"><phrase id="menutext" value="Pelaku Kreatif"/>
+</menu>
+<menu id="2"><phrase id="menutext" value="Produk"/>
+</menu>
+<menu id="3"><phrase id="menutext" value="Sektor"/>
+</menu>
+<menu id="4"><phrase id="menutext" value="Profile"/>
+</menu>
+<menu id="5"><phrase id="menutext" value="Produk Anda"/>
+</menu>
+<table id="pelaku_kreatif"><phrase id="tblcaption" value="Pelaku Kreatif"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="nama_pemilik"><phrase id="fldcaption" value="nama pemilik"/>
+</field>
+<field id="nama_industri_kreatif"><phrase id="fldcaption" value="nama industri kreatif"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="email"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="password"/>
+</field>
+<field id="deskripsi_industri_kreatif"><phrase id="fldcaption" value="deskripsi industri kreatif"/>
+</field>
+<field id="alamat"><phrase id="fldcaption" value="alamat"/>
+</field>
+<field id="no_telp"><phrase id="fldcaption" value="no telp"/>
+</field>
+<field id="image"><phrase id="fldcaption" value="gambar atau logo"/>
+</field>
+<field id="website"><phrase id="fldcaption" value="website"/>
+</field>
+<field id="sektor_industri_kreatif"><phrase id="fldcaption" value="sektor industri kreatif"/>
+</field>
+<field id="order_rank"><phrase id="fldcaption" value="order rank"/>
+<phrase id="fldtagvalue1" value="1"/>
+<phrase id="fldtagcaption1" value="1"/>
+<phrase id="fldtagvalue2" value="2"/>
+<phrase id="fldtagcaption2" value="2"/>
+<phrase id="fldtagvalue3" value="3"/>
+<phrase id="fldtagcaption3" value="3"/>
+<phrase id="fldtagvalue4" value="4"/>
+<phrase id="fldtagcaption4" value="4"/>
+<phrase id="fldtagvalue5" value="5"/>
+<phrase id="fldtagcaption5" value="5"/>
+</field>
+<field id="created_at"><phrase id="fldcaption" value="created at"/>
+</field>
+<field id="role"><phrase id="fldcaption" value="role"/>
+<phrase id="fldtagvalue1" value="-1"/>
+<phrase id="fldtagcaption1" value="Administrator"/>
+<phrase id="fldtagvalue2" value="0"/>
+<phrase id="fldtagcaption2" value="Default"/>
+<phrase id="fldtagvalue3" value="1"/>
+<phrase id="fldtagcaption3" value="Admin MCF"/>
+</field>
+</table>
+<table id="produk"><phrase id="tblcaption" value="Produk"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="nama_produk"><phrase id="fldcaption" value="nama produk"/>
+</field>
+<field id="deskripsi"><phrase id="fldcaption" value="deskripsi"/>
+</field>
+<field id="id_pelaku_kreatif"><phrase id="fldcaption" value="pelaku kreatif"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="harga"/>
+</field>
+<field id="foto_produk"><phrase id="fldcaption" value="foto produk"/>
+</field>
+</table>
+<table id="sektor"><phrase id="tblcaption" value="Sektor"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="nama_sektor"><phrase id="fldcaption" value="nama sektor"/>
+<phrase id="fldtagvalue1" value="1"/>
+<phrase id="fldtagcaption1" value="1"/>
+<phrase id="fldtagvalue2" value="2"/>
+<phrase id="fldtagcaption2" value="2"/>
+<phrase id="fldtagvalue3" value="3"/>
+<phrase id="fldtagcaption3" value="3"/>
+<phrase id="fldtagvalue4" value="4"/>
+<phrase id="fldtagcaption4" value="4"/>
+<phrase id="fldtagvalue5" value="5"/>
+<phrase id="fldtagcaption5" value="5"/>
+</field>
+</table>
+<table id="profile"><phrase id="tblcaption" value="Profile"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="nama_pemilik"><phrase id="fldcaption" value="nama pemilik"/>
+</field>
+<field id="nama_industri_kreatif"><phrase id="fldcaption" value="nama industri kreatif"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="email"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="password"/>
+</field>
+<field id="deskripsi_industri_kreatif"><phrase id="fldcaption" value="deskripsi industri kreatif"/>
+</field>
+<field id="alamat"><phrase id="fldcaption" value="alamat"/>
+</field>
+<field id="image"><phrase id="fldcaption" value="gambar atau logo"/>
+</field>
+<field id="website"><phrase id="fldcaption" value="website"/>
+</field>
+<field id="sektor_industri_kreatif"><phrase id="fldcaption" value="sektor industri kreatif"/>
+</field>
+<field id="no_telp"><phrase id="fldcaption" value="no telp"/>
+</field>
+</table>
+<table id="produk_kreatif"><phrase id="tblcaption" value="Produk Anda"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="nama_produk"><phrase id="fldcaption" value="nama produk"/>
+</field>
+<field id="deskripsi"><phrase id="fldcaption" value="deskripsi"/>
+</field>
+<field id="id_pelaku_kreatif"><phrase id="fldcaption" value="id pelaku kreatif"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="harga"/>
+</field>
+<field id="foto_produk"><phrase id="fldcaption" value="foto produk"/>
+</field>
+</table>
+</project>
+</ew-language>
